@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #104f52, #535896);
+            color: #fff;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(12px);
+            padding: 40px;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .navbar a {
+            padding: 10px 18px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #fff;
+            color: #000;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(255, 255, 255, 0.2);
+        }
+
+        .content {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .content p {
+            flex: 1;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .profile img {
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            margin-top: 40px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        table th, table td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        table th {
+            width: 25%;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.10);
+            font-weight: 600;
+        }
+
+        table tr:last-child td {
+            border-bottom: none;
+        }
+
+        a.back {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 16px;
+            text-decoration: none;
+            background: #fff;
+            color: #000;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        a.back:hover {
+            background: #d4d4d4;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            text-align: center;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Tentang</h1>
+
+    <div class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="content">
+        <p>
+           Perkenalkan Nama saya adalah Lalu Muhamad Zaki Mugni, saya adalah salah satu mahasiswa di Universitas
+           Teknologi Mataram dan prodi saya adalah Teknologi Informasi
+        </p>
+        <div class="profile">
+            <img src="WhatsApp Image 2025-12-01 at 14.04.42_1e5eb6d8.jpg" alt="Foto Profil">
+        </div>
+    </div>
+
+    <h2>Biodata</h2>
+
+    <table>
+        <tr>
+            <th>Nama</th>
+            <td>Lalu Muhamad Zaki Mugni</td>
+        </tr>
+        <tr>
+            <th>NIM</th>
+            <td>24TF017</td>
+        </tr>
+        <tr>
+            <th>Program Studi</th>
+            <td>Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <th>Hobi</th>
+            <td>Bersepeda</td>
+        </tr>
+    </table>
+
+    <a href="index.html" class="back">← Kembali ke Beranda</a>
+
+    <footer>
+        © 2025 Website Sederhana
+    </footer>
+
+</div>
+
+</body>
+</html>
